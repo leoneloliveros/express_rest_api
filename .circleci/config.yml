@@ -10,6 +10,7 @@ jobs:
     working_directory: ~/project
     steps:
       # install dependencies
+      - checkout
       - run:
           name: Install Dependencies
           command: npm install
